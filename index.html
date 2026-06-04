@@ -1,0 +1,585 @@
+<!DOCTYPE html>
+
+<html class="scroll-smooth" dir="rtl" lang="ar"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>مكتب العدالة للمحاماة والاستشارات القانونية | الرياض</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=IBM+Plex+Sans+Arabic:wght@300;400;500;600;700&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<!-- Tailwind Theme Configuration -->
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "tertiary-container": "#241a06",
+                    "inverse-primary": "#b9c7e4",
+                    "on-error": "#ffffff",
+                    "on-tertiary-container": "#928265",
+                    "on-tertiary-fixed-variant": "#52452c",
+                    "secondary-container": "#fed488",
+                    "on-primary-fixed": "#0d1c32",
+                    "on-error-container": "#93000a",
+                    "inverse-on-surface": "#f2f0ed",
+                    "primary": "#000000",
+                    "on-secondary-fixed": "#261900",
+                    "error": "#ba1a1a",
+                    "surface-tint": "#515f78",
+                    "on-background": "#1b1c1a",
+                    "tertiary-fixed": "#f4e0be",
+                    "surface-container-low": "#f5f3ef",
+                    "surface-container": "#efeeea",
+                    "on-secondary-container": "#785a1a",
+                    "primary-fixed-dim": "#b9c7e4",
+                    "tertiary": "#000000",
+                    "outline-variant": "#c5c6cd",
+                    "surface-dim": "#dbdad6",
+                    "on-secondary-fixed-variant": "#5d4201",
+                    "background": "#fbf9f5",
+                    "surface-variant": "#e4e2de",
+                    "primary-container": "#0d1c32",
+                    "outline": "#75777e",
+                    "surface-container-highest": "#e4e2de",
+                    "surface-container-high": "#eae8e4",
+                    "on-secondary": "#ffffff",
+                    "on-surface": "#1b1c1a",
+                    "secondary-fixed-dim": "#e9c176",
+                    "primary-fixed": "#d6e3ff",
+                    "tertiary-fixed-dim": "#d7c4a4",
+                    "on-tertiary-fixed": "#241a06",
+                    "on-primary": "#ffffff",
+                    "secondary-fixed": "#ffdea5",
+                    "surface-bright": "#fbf9f5",
+                    "surface": "#fbf9f5",
+                    "on-primary-fixed-variant": "#39475f",
+                    "surface-container-lowest": "#ffffff",
+                    "on-surface-variant": "#44474d",
+                    "inverse-surface": "#30312e",
+                    "on-primary-container": "#76849f",
+                    "secondary": "#775a19",
+                    "on-tertiary": "#ffffff",
+                    "error-container": "#ffdad6"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "container-max": "1280px",
+                    "margin-mobile": "20px",
+                    "margin-tablet": "40px",
+                    "margin-desktop": "80px",
+                    "gutter": "32px",
+                    "unit": "8px"
+            },
+            "fontFamily": {
+                    "headline-xl": ["Playfair Display"],
+                    "label-sm": ["IBM Plex Sans Arabic"],
+                    "label-lg": ["IBM Plex Sans Arabic"],
+                    "body-lg": ["IBM Plex Sans Arabic"],
+                    "headline-md": ["Playfair Display"],
+                    "headline-lg": ["Playfair Display"],
+                    "display-lg": ["Playfair Display"],
+                    "body-md": ["IBM Plex Sans Arabic"],
+                    "display-lg-mobile": ["Playfair Display"]
+            },
+            "fontSize": {
+                    "headline-xl": ["48px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                    "label-sm": ["12px", {"lineHeight": "1.0", "fontWeight": "500"}],
+                    "label-lg": ["14px", {"lineHeight": "1.0", "letterSpacing": "0.05em", "fontWeight": "600"}],
+                    "body-lg": ["18px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "headline-md": ["24px", {"lineHeight": "1.4", "fontWeight": "600"}],
+                    "headline-lg": ["32px", {"lineHeight": "1.3", "fontWeight": "600"}],
+                    "display-lg": ["64px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                    "body-md": ["16px", {"lineHeight": "1.6", "fontWeight": "400"}],
+                    "display-lg-mobile": ["40px", {"lineHeight": "1.2", "fontWeight": "700"}]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #0d1c32; /* Midnight Navy Background */
+            color: #fbf9f5;
+            font-family: 'IBM Plex Sans Arabic', sans-serif;
+        }
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        .gold-border {
+            border: 1px solid transparent;
+            background-image: linear-gradient(#0d1c32, #0d1c32), linear-gradient(to right, #C5A059, #E5D1B0);
+            background-origin: border-box;
+            background-clip: padding-box, border-box;
+        }
+        .glass-panel {
+            background: rgba(13, 28, 50, 0.7);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(197, 160, 89, 0.2);
+        }
+        .reveal {
+            opacity: 0;
+            transform: translateY(20px);
+            transition: all 0.8s ease-out;
+        }
+        .reveal.active {
+            opacity: 1;
+            transform: translateY(0);
+        }
+        .luxury-shadow {
+            box-shadow: 0 20px 40px rgba(0,0,0,0.4);
+        }
+        @keyframes shine {
+            0% { transform: translateX(-100%); }
+            100% { transform: translateX(100%); }
+        }
+        .button-shine::after {
+            content: '';
+            position: absolute;
+            top: 0; left: 0; width: 50%; height: 100%;
+            background: linear-gradient(to right, transparent, rgba(255,255,255,0.2), transparent);
+            transform: skewX(-25deg);
+            animation: shine 3s infinite;
+        }
+    </style>
+</head>
+<body class="font-body-md overflow-x-hidden">
+<!-- Header -->
+<header class="fixed top-0 w-full z-50 bg-white/60 dark:bg-black/60 backdrop-blur-xl border-b border-secondary/20 shadow-sm h-20 flex items-center justify-between px-margin-mobile md:px-margin-desktop transition-all duration-300">
+<div class="flex items-center gap-4">
+<button class="material-symbols-outlined text-primary scale-95 active:scale-90" onclick="toggleDrawer()">menu</button>
+<h1 class="font-headline-md text-[18px] md:text-headline-md tracking-tighter text-primary dark:text-inverse-primary font-bold">مكتب العدالة للمحاماة</h1>
+</div>
+<div class="hidden md:flex gap-8 items-center">
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg tracking-widest uppercase" href="#about">عن المكتب</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg tracking-widest uppercase" href="#practice">خدماتنا</a>
+<a class="text-on-surface-variant hover:text-primary transition-colors font-label-lg text-label-lg tracking-widest uppercase" href="#journey">رحلة العميل</a>
+<a class="text-secondary border-b-2 border-secondary pb-1 font-label-lg text-label-lg tracking-widest uppercase" href="#packages">باقات الاستشارة</a>
+</div>
+<a class="bg-primary-container text-on-primary-container px-6 py-2 font-label-lg text-label-lg uppercase tracking-widest flex items-center gap-2" href="https://wa.me/966500000000" target="_blank">
+<span class="material-symbols-outlined text-sm">chat</span> واتساب
+    </a>
+</header>
+<!-- NavigationDrawer -->
+<div class="fixed right-0 h-full w-80 bg-surface dark:bg-tertiary-container border-l border-secondary/30 shadow-2xl z-[60] translate-x-full transition-transform duration-500 ease-in-out" id="drawer">
+<div class="flex flex-col p-unit-4 pt-24 gap-6">
+<div class="mb-8 border-b border-secondary/20 pb-4">
+<h2 class="font-headline-lg text-headline-lg text-secondary">القائمة الرئيسية</h2>
+</div>
+<nav class="flex flex-col gap-4">
+<a class="flex items-center gap-4 text-on-surface-variant p-3 hover:bg-secondary/5 transition-all" href="#about" onclick="toggleDrawer()">
+<span class="material-symbols-outlined">account_balance</span>
+<span class="font-body-lg">من نحن</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant p-3 hover:bg-secondary/5 transition-all" href="#practice" onclick="toggleDrawer()">
+<span class="material-symbols-outlined">gavel</span>
+<span class="font-body-lg">خدماتنا القانونية</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant p-3 hover:bg-secondary/5 transition-all" href="#journey" onclick="toggleDrawer()">
+<span class="material-symbols-outlined">trending_up</span>
+<span class="font-body-lg">رحلة العميل</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant p-3 hover:bg-secondary/5 transition-all" href="#packages" onclick="toggleDrawer()">
+<span class="material-symbols-outlined">payments</span>
+<span class="font-body-lg">باقات الاستشارة</span>
+</a>
+<a class="flex items-center gap-4 text-on-surface-variant p-3 hover:bg-secondary/5 transition-all" href="#contact" onclick="toggleDrawer()">
+<span class="material-symbols-outlined">mail</span>
+<span class="font-body-lg">تواصل معنا</span>
+</a>
+</nav>
+<button class="mt-12 text-on-surface-variant flex items-center justify-center gap-2" onclick="toggleDrawer()">
+<span class="material-symbols-outlined">close</span> إغلاق القائمة
+        </button>
+</div>
+</div>
+<!-- Hero Section -->
+<section class="relative min-h-screen pt-32 pb-20 flex flex-col justify-center overflow-hidden" id="hero">
+<div class="absolute inset-0 z-0 bg-primary-container">
+<img alt="Senior Attorney portrait" class="w-full h-full object-cover opacity-60 mix-blend-luminosity" src="https://lh3.googleusercontent.com/aida/AP1WRLuq20vJdRctszC2mVFDbZSI3wsSsV9MJZS8r0WyxW-MCKtSimPeRrAK1QsrIeoT-9CVqFo1OrtVNjoUae9QW4PRCrZz1ykwysioR_VHWL85NshF3GkYh-9dyucBW8_KDPwQCIDRySfAbkxn22xabnxs3hoqqfH_2Jha-lN65izn-45mkTewWjd2CkDYNwBZG8cn6X9Ow38q7M2DLWW1IBivkvesQKy1qf8qI3M1C39bdGYc0Fmdr1syJA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-primary-container via-primary-container/40 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-right">
+<div class="max-w-3xl ml-auto reveal">
+<p class="font-label-lg text-secondary mb-4 tracking-[0.2em] uppercase">مكتب العدالة للمحاماة | الرياض</p>
+<h2 class="font-headline-xl text-display-lg-mobile md:text-display-lg leading-tight mb-6 text-white">خبرة قانونية راسخة تحمي حقوقك وتصون مصالحك</h2>
+<p class="font-body-lg text-on-primary-container mb-10 leading-relaxed max-w-xl ml-auto">نرافقك في كل خطوة قانونية بثقةٍ ووضوح — من الاستشارة الأولى حتى صدور الحكم — وفق أنظمة المملكة العربية السعودية.</p>
+<div class="flex flex-col sm:flex-row-reverse gap-4">
+<a class="relative overflow-hidden bg-secondary text-white px-10 py-5 font-label-lg text-label-lg tracking-widest flex items-center justify-center gap-3 luxury-shadow button-shine" href="#packages">
+                    احجز استشارة <span class="material-symbols-outlined">arrow_back</span>
+</a>
+<a class="border border-white/30 text-white px-10 py-5 font-label-lg text-label-lg tracking-widest flex items-center justify-center gap-3 backdrop-blur-md" href="https://wa.me/966500000000">
+                    تواصل عبر واتساب
+                </a>
+</div>
+<div class="mt-16 flex items-center justify-end gap-12 text-white/70">
+<div class="flex flex-col items-center">
+<span class="font-headline-md text-secondary">18+</span>
+<p class="font-label-sm text-[10px] uppercase">عاماً من الخبرة</p>
+</div>
+<div class="flex flex-col items-center border-r border-white/20 pr-12">
+<span class="font-headline-md text-secondary">3500+</span>
+<p class="font-label-sm text-[10px] uppercase">استشارة قانونية</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- About Section -->
+<section class="py-32 bg-white text-primary" id="about">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="grid grid-cols-1 md:grid-cols-2 gap-20 items-center">
+<div class="reveal">
+<div class="relative">
+<img alt="Abdulaziz Al-Rajhi Lawyer" class="w-full aspect-[4/5] object-cover luxury-shadow" src="https://lh3.googleusercontent.com/aida/AP1WRLuq20vJdRctszC2mVFDbZSI3wsSsV9MJZS8r0WyxW-MCKtSimPeRrAK1QsrIeoT-9CVqFo1OrtVNjoUae9QW4PRCrZz1ykwysioR_VHWL85NshF3GkYh-9dyucBW8_KDPwQCIDRySfAbkxn22xabnxs3hoqqfH_2Jha-lN65izn-45mkTewWjd2CkDYNwBZG8cn6X9Ow38q7M2DLWW1IBivkvesQKy1qf8qI3M1C39bdGYc0Fmdr1syJA"/>
+<div class="absolute -bottom-10 -right-10 bg-secondary p-12 text-white hidden md:block">
+<p class="text-headline-xl font-headline-xl">18+</p>
+<p class="text-label-lg font-label-lg uppercase">عاماً من الخبرة</p>
+</div>
+</div>
+</div>
+<div class="reveal">
+<span class="text-secondary font-label-lg text-label-lg uppercase tracking-widest block mb-4">من نحن</span>
+<h2 class="text-headline-xl font-headline-xl mb-4 leading-tight">المحامي / عبدالعزيز بن سعد الراجحي</h2>
+<p class="text-secondary font-label-lg mb-8">المؤسس والمحامي الرئيسي — عضو الهيئة السعودية للمحامين</p>
+<div class="space-y-6 text-body-lg text-on-surface-variant mb-10 leading-relaxed">
+<p>أسّس الأستاذ عبدالعزيز الراجحي مكتب العدالة ليكون مرجعاً قانونياً موثوقاً للأفراد والشركات في مدينة الرياض. يحمل خبرة تمتد لأكثر من ثمانية عشر عاماً في الترافع أمام المحاكم وصياغة العقود وتقديم الاستشارات.</p>
+<p>تخصّص خلال مسيرته في القضايا التجارية ومنازعات الشركاء والقضايا العمالية، وأشرف على عدد من القضايا النوعية أمام المحاكم العامة والتجارية ودوائر التنفيذ.</p>
+</div>
+<ul class="grid grid-cols-1 sm:grid-cols-2 gap-4 mb-12">
+<li class="flex items-center gap-4 font-label-lg"><span class="material-symbols-outlined text-secondary">verified</span> بكالوريوس الشريعة والأنظمة</li>
+<li class="flex items-center gap-4 font-label-lg"><span class="material-symbols-outlined text-secondary">verified</span> ماجستير القانون التجاري</li>
+<li class="flex items-center gap-4 font-label-lg"><span class="material-symbols-outlined text-secondary">verified</span> عضو الهيئة السعودية للمحامين</li>
+<li class="flex items-center gap-4 font-label-lg"><span class="material-symbols-outlined text-secondary">verified</span> مستشار معتمد للشركات</li>
+</ul>
+<div class="p-8 bg-surface-container border-r-4 border-secondary italic text-on-surface">
+                    "نؤمن أن لكل عميلٍ حقاً في أن يفهم موقفه القانوني بوضوح قبل أن يتخذ قراره. مهمتنا أن نقف إلى جانبك بالمعرفة والأمانة، لا بالوعود."
+                </div>
+</div>
+</div>
+</div>
+</section>
+<!-- Practice Areas -->
+<section class="py-32 bg-surface-container-lowest" id="practice">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-20 reveal">
+<span class="text-secondary font-label-lg text-label-lg uppercase tracking-widest block mb-4">خدماتنا القانونية</span>
+<h2 class="text-primary font-headline-xl text-headline-xl mb-4">تمثيلك في كل مرحلة قانونية</h2>
+<div class="w-24 h-1 bg-secondary mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+<!-- Services from DOCUMENT_2 -->
+<div class="bg-white p-8 hover:shadow-xl transition-all border border-secondary/10 group reveal">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block">business</span>
+<h3 class="text-primary font-headline-md text-xl mb-4">القضايا التجارية</h3>
+<p class="text-on-surface-variant text-body-md mb-6">تمثيلك في المنازعات التجارية أمام المحاكم التجارية وحماية مصالحك المالية.</p>
+</div>
+<div class="bg-white p-8 hover:shadow-xl transition-all border border-secondary/10 group reveal">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block">corporate_fare</span>
+<h3 class="text-primary font-headline-md text-xl mb-4">تأسيس الشركات</h3>
+<p class="text-on-surface-variant text-body-md mb-6">تأسيس المنشآت وصياغة عقود التأسيس وتنظيم العلاقة بين الشركاء.</p>
+</div>
+<div class="bg-white p-8 hover:shadow-xl transition-all border border-secondary/10 group reveal">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block">groups</span>
+<h3 class="text-primary font-headline-md text-xl mb-4">القضايا العمالية</h3>
+<p class="text-on-surface-variant text-body-md mb-6">تمثيل أصحاب العمل والموظفين في المنازعات وحساب الحقوق.</p>
+</div>
+<div class="bg-white p-8 hover:shadow-xl transition-all border border-secondary/10 group reveal">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block">family_restroom</span>
+<h3 class="text-primary font-headline-md text-xl mb-4">الأحوال الشخصية</h3>
+<p class="text-on-surface-variant text-body-md mb-6">قضايا الحضانة والنفقة والطلاق والمواريث بمعاملةٍ تراعي الخصوصية.</p>
+</div>
+<div class="bg-white p-8 hover:shadow-xl transition-all border border-secondary/10 group reveal">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block">domain</span>
+<h3 class="text-primary font-headline-md text-xl mb-4">العقارات</h3>
+<p class="text-on-surface-variant text-body-md mb-6">منازعات الملكية والإيجار وفسخ العقود العقارية والتعويض.</p>
+</div>
+<div class="bg-white p-8 hover:shadow-xl transition-all border border-secondary/10 group reveal">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block">contract</span>
+<h3 class="text-primary font-headline-md text-xl mb-4">صياغة العقود</h3>
+<p class="text-on-surface-variant text-body-md mb-6">إعداد ومراجعة العقود بصياغة محكمة تحمي حقوقك وتقلّل المخاطر.</p>
+</div>
+<div class="bg-white p-8 hover:shadow-xl transition-all border border-secondary/10 group reveal">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block">gavel</span>
+<h3 class="text-primary font-headline-md text-xl mb-4">التنفيذ</h3>
+<p class="text-on-surface-variant text-body-md mb-6">متابعة طلبات التنفيذ وتحصيل الأحكام أمام دوائر التنفيذ.</p>
+</div>
+<div class="bg-white p-8 hover:shadow-xl transition-all border border-secondary/10 group reveal">
+<span class="material-symbols-outlined text-4xl text-secondary mb-6 block">psychology</span>
+<h3 class="text-primary font-headline-md text-xl mb-4">الاستشارات</h3>
+<p class="text-on-surface-variant text-body-md mb-6">استشارات مكتوبة وشفهية دقيقة في مختلف المجالات النظامية.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Client Journey (Timeline) -->
+<section class="py-32 bg-primary-container text-white" id="journey">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-20 reveal">
+<span class="text-secondary font-label-lg text-label-lg uppercase tracking-widest block mb-4">رحلة العميل</span>
+<h2 class="text-white font-headline-xl text-headline-xl mb-4">كيف نعمل معك خطوة بخطوة</h2>
+<p class="text-on-primary-container max-w-2xl mx-auto">نؤمن بالشفافية — إليك ما يحدث بعد أن تتواصل معنا.</p>
+</div>
+<div class="relative">
+<!-- Central Line -->
+<div class="absolute left-1/2 top-0 bottom-0 w-px bg-white/10 hidden md:block"></div>
+<div class="space-y-12">
+<!-- Step 1 -->
+<div class="flex flex-col md:flex-row items-center gap-8 reveal">
+<div class="flex-1 text-right hidden md:block">
+<h4 class="text-headline-md text-secondary">تقديم الطلب</h4>
+<p class="text-on-primary-container">تعبئة نموذج الاستشارة أو التواصل المباشر — العملية تستغرق دقائق.</p>
+</div>
+<div class="z-10 w-12 h-12 rounded-full bg-secondary flex items-center justify-center font-bold text-white shadow-lg">1</div>
+<div class="flex-1 md:hidden text-center">
+<h4 class="text-headline-md text-secondary">تقديم الطلب</h4>
+<p class="text-on-primary-container">تعبئة نموذج الاستشارة أو التواصل المباشر — العملية تستغرق دقائق.</p>
+</div>
+<div class="flex-1 hidden md:block"></div>
+</div>
+<!-- Step 2 -->
+<div class="flex flex-col md:flex-row items-center gap-8 reveal">
+<div class="flex-1 hidden md:block"></div>
+<div class="z-10 w-12 h-12 rounded-full bg-secondary flex items-center justify-center font-bold text-white shadow-lg">2</div>
+<div class="flex-1 text-left">
+<h4 class="text-headline-md text-secondary text-center md:text-right">المراجعة الأولية</h4>
+<p class="text-on-primary-container text-center md:text-right">يراجع فريقنا طلبك ويدرس طبيعة موضوعك خلال ٢٤ ساعة.</p>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="flex flex-col md:flex-row items-center gap-8 reveal">
+<div class="flex-1 text-right hidden md:block">
+<h4 class="text-headline-md text-secondary">الاستشارة</h4>
+<p class="text-on-primary-container">موعد رسمي مع المستشار المتخصص لمناقشة موضوعك واستعراض الخيارات.</p>
+</div>
+<div class="z-10 w-12 h-12 rounded-full bg-secondary flex items-center justify-center font-bold text-white shadow-lg">3</div>
+<div class="flex-1 md:hidden text-center">
+<h4 class="text-headline-md text-secondary">الاستشارة</h4>
+<p class="text-on-primary-container">موعد رسمي مع المستشار المتخصص لمناقشة موضوعك واستعراض الخيارات.</p>
+</div>
+<div class="flex-1 hidden md:block"></div>
+</div>
+<!-- Step 4 -->
+<div class="flex flex-col md:flex-row items-center gap-8 reveal">
+<div class="flex-1 hidden md:block"></div>
+<div class="z-10 w-12 h-12 rounded-full bg-secondary flex items-center justify-center font-bold text-white shadow-lg">4</div>
+<div class="flex-1 text-left">
+<h4 class="text-headline-md text-secondary text-center md:text-right">خطة عمل قانونية</h4>
+<p class="text-on-primary-container text-center md:text-right">نضع معك خطة عمل واضحة تشمل الإجراءات والجدول والأتعاب.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Packages -->
+<section class="py-32 bg-surface" id="packages">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop">
+<div class="text-center mb-20 reveal">
+<span class="text-secondary font-label-lg text-label-lg uppercase tracking-widest block mb-4">باقات الاستشارة</span>
+<h2 class="text-primary font-headline-xl text-headline-xl mb-4">ابدأ بالخطوة الأولى نحو حل قضيتك</h2>
+<div class="w-24 h-1 bg-secondary mx-auto"></div>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+<!-- Package 1 -->
+<div class="bg-white border border-secondary/10 p-8 flex flex-col items-center text-center hover:shadow-2xl transition-all reveal">
+<span class="material-symbols-outlined text-4xl text-secondary mb-4">description</span>
+<h3 class="font-headline-md text-xl mb-2">استشارة مكتوبة</h3>
+<p class="text-on-surface-variant text-sm mb-6 flex-grow">رأي قانوني مكتوب ومفصّل في موضوعك، مدعوم بالأسانيد النظامية.</p>
+<div class="mb-6">
+<span class="text-3xl font-bold text-primary">500</span>
+<span class="text-secondary text-sm">ريال</span>
+</div>
+<a class="w-full bg-primary py-3 text-white font-label-lg uppercase tracking-widest hover:bg-secondary transition-colors" href="https://wa.me/966500000000?text=أرغب في حجز استشارة قانونية مكتوبة">احجز الآن</a>
+</div>
+<!-- Package 2 Featured -->
+<div class="bg-primary-container border-2 border-secondary p-8 flex flex-col items-center text-center shadow-2xl relative reveal">
+<div class="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-secondary text-white px-4 py-1 text-[10px] font-bold uppercase">الأكثر طلباً</div>
+<span class="material-symbols-outlined text-4xl text-secondary mb-4">call</span>
+<h3 class="font-headline-md text-xl mb-2 text-white">استشارة هاتفية</h3>
+<p class="text-on-primary-container text-sm mb-6 flex-grow">مكالمة مباشرة مع المستشار لمناقشة موضوعك والإجابة على أسئلتك.</p>
+<div class="mb-6">
+<span class="text-3xl font-bold text-white">300</span>
+<span class="text-secondary text-sm">ريال</span>
+</div>
+<a class="w-full bg-secondary py-3 text-white font-label-lg uppercase tracking-widest hover:brightness-110 transition-all" href="https://wa.me/966500000000?text=أرغب في حجز استشارة هاتفية">احجز الآن</a>
+</div>
+<!-- Package 3 -->
+<div class="bg-white border border-secondary/10 p-8 flex flex-col items-center text-center hover:shadow-2xl transition-all reveal">
+<span class="material-symbols-outlined text-4xl text-secondary mb-4">chat</span>
+<h3 class="font-headline-md text-xl mb-2">استشارة واتساب</h3>
+<p class="text-on-surface-variant text-sm mb-6 flex-grow">استشارة نصية سريعة مناسبة للأسئلة المحددة والعاجلة.</p>
+<div class="mb-6">
+<span class="text-3xl font-bold text-primary">200</span>
+<span class="text-secondary text-sm">ريال</span>
+</div>
+<a class="w-full bg-primary py-3 text-white font-label-lg uppercase tracking-widest hover:bg-secondary transition-colors" href="https://wa.me/966500000000?text=أرغب في حجز استشارة واتساب">احجز الآن</a>
+</div>
+<!-- Package 4 -->
+<div class="bg-white border border-secondary/10 p-8 flex flex-col items-center text-center hover:shadow-2xl transition-all reveal">
+<span class="material-symbols-outlined text-4xl text-secondary mb-4">location_city</span>
+<h3 class="font-headline-md text-xl mb-2">موعد في المكتب</h3>
+<p class="text-on-surface-variant text-sm mb-6 flex-grow">جلسة حضورية في مكتبنا بالرياض لمناقشة قضيتك ومراجعة مستنداتك.</p>
+<div class="mb-6">
+<span class="text-3xl font-bold text-primary">600</span>
+<span class="text-secondary text-sm">ريال</span>
+</div>
+<a class="w-full bg-primary py-3 text-white font-label-lg uppercase tracking-widest hover:bg-secondary transition-colors" href="https://wa.me/966500000000?text=أرغب في حجز موعد في المكتب">احجز الآن</a>
+</div>
+</div>
+</div>
+</section>
+<!-- Contact Section -->
+<section class="py-32 bg-primary-container relative" id="contact">
+<div class="absolute inset-0 opacity-10 pointer-events-none" style="background-image: radial-gradient(circle at 2px 2px, #C5A059 1px, transparent 0); background-size: 40px 40px;"></div>
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop relative z-10">
+<div class="grid grid-cols-1 lg:grid-cols-2 gap-20">
+<div class="reveal">
+<span class="text-secondary font-label-lg text-label-lg uppercase tracking-widest block mb-4">تواصل معنا</span>
+<h2 class="text-white font-headline-xl text-headline-xl mb-8">نحن هنا للإجابة على استفساراتك</h2>
+<div class="space-y-8">
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-secondary bg-white/5 p-4">mail</span>
+<div>
+<p class="text-on-primary-container font-label-sm uppercase">البريد الإلكتروني</p>
+<p class="text-white font-body-md">info@aladalah-law.sa</p>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-secondary bg-white/5 p-4">call</span>
+<div>
+<p class="text-on-primary-container font-label-sm uppercase">الهاتف الرئيسي</p>
+<p class="text-white font-body-md" dir="ltr">+966 11 000 0000</p>
+</div>
+</div>
+<div class="flex items-center gap-6">
+<span class="material-symbols-outlined text-secondary bg-white/5 p-4">location_on</span>
+<div>
+<p class="text-on-primary-container font-label-sm uppercase">الموقع</p>
+<p class="text-white font-body-md">طريق الملك فهد، حي العليا، الرياض</p>
+</div>
+</div>
+</div>
+<div class="mt-12 p-8 glass-panel text-on-primary-container">
+<h4 class="text-white font-bold mb-4">ساعات العمل</h4>
+<div class="flex justify-between border-b border-white/10 py-2">
+<span>الأحد – الخميس</span>
+<span class="text-secondary">9:00 ص – 9:00 م</span>
+</div>
+<div class="flex justify-between border-b border-white/10 py-2">
+<span>السبت</span>
+<span class="text-secondary">4:00 م – 9:00 م</span>
+</div>
+<div class="flex justify-between py-2">
+<span>الجمعة</span>
+<span class="text-error">مغلق</span>
+</div>
+</div>
+</div>
+<div class="glass-panel p-10 md:p-16 reveal">
+<form class="space-y-6" id="consultationForm">
+<div>
+<label class="block font-label-lg text-secondary uppercase mb-2">الاسم الكامل</label>
+<input class="w-full bg-transparent border-0 border-b border-white/20 focus:border-secondary focus:ring-0 text-white p-4 transition-colors" placeholder="اسمك الكامل" required="" type="text"/>
+</div>
+<div>
+<label class="block font-label-lg text-secondary uppercase mb-2">نوع القضية أو الاستشارة</label>
+<select class="w-full bg-transparent border-0 border-b border-white/20 focus:border-secondary focus:ring-0 text-white p-4 transition-colors">
+<option class="bg-primary-container">قضية تجارية</option>
+<option class="bg-primary-container">قضية عمالية</option>
+<option class="bg-primary-container">أحوال شخصية</option>
+<option class="bg-primary-container">عقارات</option>
+<option class="bg-primary-container">صياغة عقود</option>
+</select>
+</div>
+<div>
+<label class="block font-label-lg text-secondary uppercase mb-2">رقم الجوال الشخصي</label>
+<input class="w-full bg-transparent border-0 border-b border-white/20 focus:border-secondary focus:ring-0 text-white p-4 transition-colors" placeholder="05xxxxxxxx" required="" type="tel"/>
+</div>
+<div>
+<label class="block font-label-lg text-secondary uppercase mb-2">وصف مختصر</label>
+<textarea class="w-full bg-transparent border-0 border-b border-white/20 focus:border-secondary focus:ring-0 text-white p-4 transition-colors" placeholder="اشرح موضوعك بإيجاز..." rows="4"></textarea>
+</div>
+<button class="w-full bg-secondary text-white py-6 font-label-lg uppercase tracking-widest luxury-shadow button-shine relative overflow-hidden transition-transform active:scale-95" type="submit">
+                        إرسال طلب الاستشارة
+                    </button>
+</form>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="bg-primary-container border-t border-secondary/10 w-full">
+<div class="max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop py-20 flex flex-col items-center gap-8">
+<h2 class="font-label-lg text-label-lg text-secondary-fixed tracking-[0.3em] uppercase">مكتب العدالة للمحاماة</h2>
+<div class="flex flex-wrap justify-center gap-12 font-body-md text-on-primary-container/70">
+<a class="hover:text-secondary-fixed transition-colors" href="#">سياسة الخصوصية</a>
+<a class="hover:text-secondary-fixed transition-colors" href="#">إخلاء مسؤولية</a>
+<a class="hover:text-secondary-fixed transition-colors" href="#">الشروط والأحكام</a>
+</div>
+<div class="w-20 h-[1px] bg-secondary/30"></div>
+<p class="font-body-md text-body-md text-on-primary-container text-center max-w-2xl">
+            © 2026 مكتب العدالة للمحاماة والاستشارات القانونية. مرخّص من وزارة العدل والهيئة السعودية للمحامين. جميع الحقوق محفوظة.<br/>
+<span class="text-sm opacity-50">المحتوى المعروض لأغراض التعريف العام فقط ولا يُعدّ استشارة قانونية مُلزمة.</span>
+</p>
+</div>
+</footer>
+<!-- FAB for WhatsApp Concierge -->
+<div class="fixed bottom-10 left-10 z-40 flex items-center gap-4">
+<div class="bg-white px-4 py-2 rounded-lg text-primary text-label-lg luxury-shadow opacity-0 -translate-x-4 transition-all duration-300 pointer-events-none" id="fab-label">تواصل مباشر</div>
+<a class="w-16 h-16 bg-[#25D366] text-white flex items-center justify-center rounded-full luxury-shadow active:scale-90 transition-transform" href="https://wa.me/966500000000" onmouseout="document.getElementById('fab-label').classList.replace('opacity-100', 'opacity-0'); document.getElementById('fab-label').classList.replace('translate-x-0', '-translate-x-4')" onmouseover="document.getElementById('fab-label').classList.replace('opacity-0', 'opacity-100'); document.getElementById('fab-label').classList.replace('-translate-x-4', 'translate-x-0')" target="_blank">
+<svg class="w-8 h-8" fill="currentColor" viewbox="0 0 24 24"><path d="M.057 24l1.687-6.163a11.867 11.867 0 0 1-1.587-5.946C.16 5.335 5.495 0 12.05 0a11.82 11.82 0 0 1 8.413 3.488 11.824 11.824 0 0 1 3.48 8.414c-.003 6.557-5.338 11.892-11.893 11.892a11.9 11.9 0 0 1-5.688-1.448L.057 24zm6.597-3.807c1.676.995 3.276 1.591 5.392 1.592 5.448 0 9.886-4.434 9.889-9.885.002-5.462-4.415-9.89-9.881-9.892-5.452 0-9.887 4.434-9.889 9.884a9.86 9.86 0 0 0 1.51 5.26l-.999 3.648 3.978-1.215zm11.387-5.464c-.074-.124-.272-.198-.57-.347-.297-.149-1.758-.868-2.031-.967-.272-.099-.47-.149-.669.149-.198.297-.768.967-.941 1.165-.173.198-.347.223-.644.074-.297-.149-1.255-.462-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.297-.347.446-.521.151-.172.2-.296.3-.495.099-.198.05-.372-.025-.521-.075-.148-.669-1.611-.916-2.206-.242-.579-.487-.501-.669-.51l-.57-.01c-.198 0-.52.074-.792.372s-1.04 1.016-1.04 2.479 1.065 2.876 1.213 3.074c.149.198 2.095 3.2 5.076 4.487.709.306 1.263.489 1.694.626.712.226 1.36.194 1.872.118.571-.085 1.758-.719 2.006-1.413.248-.695.248-1.29.173-1.414z"></path></svg>
+</a>
+</div>
+<script>
+    // Toggle Navigation Drawer
+    function toggleDrawer() {
+        const drawer = document.getElementById('drawer');
+        if (drawer.classList.contains('translate-x-full')) {
+            drawer.classList.remove('translate-x-full');
+            drawer.classList.add('translate-x-0');
+        } else {
+            drawer.classList.remove('translate-x-0');
+            drawer.classList.add('translate-x-full');
+        }
+    }
+
+    // Scroll Reveal Animation
+    function reveal() {
+        var reveals = document.querySelectorAll(".reveal");
+        for (var i = 0; i < reveals.length; i++) {
+            var windowHeight = window.innerHeight;
+            var elementTop = reveals[i].getBoundingClientRect().top;
+            var elementVisible = 100;
+            if (elementTop < windowHeight - elementVisible) {
+                reveals[i].classList.add("active");
+            }
+        }
+    }
+    window.addEventListener("scroll", reveal);
+    window.addEventListener("load", reveal);
+
+    // Header appearance on scroll
+    window.onscroll = function() {
+        const header = document.querySelector('header');
+        if (window.pageYOffset > 50) {
+            header.classList.add('h-16', 'shadow-md', 'bg-white/95');
+            header.classList.remove('h-20');
+        } else {
+            header.classList.remove('h-16', 'shadow-md', 'bg-white/95');
+            header.classList.add('h-20');
+        }
+    };
+
+    // Form Submission Placeholder
+    document.getElementById('consultationForm').addEventListener('submit', function(e) {
+        e.preventDefault();
+        alert('شكراً لتواصلكم. تم استلام طلبكم بنجاح وسنقوم بالرد عليكم خلال 24 ساعة.');
+        this.reset();
+    });
+</script>
+</body></html>
